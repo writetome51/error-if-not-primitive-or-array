@@ -1,0 +1,24 @@
+{
+  "name": "error-if-not-primitive-or-array",
+  "version": "1.0.0",
+  "description": "To call inside functions that search for a particular value inside an array which cannot be an object",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "basic",
+    "type-checking",
+    "strict",
+    "type",
+    "check",
+    "data-type",
+    "functions",
+    "typescript"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "dependencies": {
+	"basic-data-handling": "latest"
+  }
+}
