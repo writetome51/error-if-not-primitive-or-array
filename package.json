@@ -1,7 +1,7 @@
 {
   "name": "error-if-not-primitive-or-array",
-  "version": "1.0.0",
-  "description": "To call inside functions that search for a particular value inside an array which cannot be an object",
+  "version": "1.0.1",
+  "description": "To call when a value must be either a primitive or an array",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,12 +13,11 @@
     "type",
     "check",
     "data-type",
-    "functions",
-    "typescript"
+    "functions"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "basic-data-handling": "latest"
+    "basic-data-handling": "~1.0.13"
   }
 }
