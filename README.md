@@ -1,5 +1,16 @@
-To call inside functions that search for a particular value inside an array which cannot be an object.
+## errorIfNotPrimitiveOrArray(value): void
 
-errorIfNotPrimitiveOrArray(value): void
+It triggers a fatal error if `value` is not a primitive (number, boolean, or string)   
+or array.
 
-It triggers a fatal error if value is not a primitive or array.
+### Installation
+`npm i  error-if-not-primitive-or-array`
+
+### Loading
+```
+// if using TypeScript:
+import {errorIfNotPrimitiveOrArray} from 'error-if-not-primitive-or-array';
+// if using ES5 JavaScript:
+var errorIfNotPrimitiveOrArray = 
+	require('error-if-not-primitive-or-array').errorIfNotPrimitiveOrArray;
+```
