@@ -1,6 +1,6 @@
 ## errorIfNotPrimitiveOrArray(value): void
 
-It triggers a fatal error if `value` is not a primitive (number, boolean, or string)   
+Triggers a fatal error if `value` is not a primitive (number, boolean, or string)   
 or array.
 
 ### Installation
