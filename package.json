@@ -1,23 +1,24 @@
 {
   "name": "error-if-not-primitive-or-array",
   "version": "1.0.2",
-  "description": "To call when a value must be either a primitive or an array",
+  "description": "Function triggers error if argument is neither a primitive type or array",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "basic",
+    "error",
+    "message",
+    "primitive",
+    "array",
     "type-checking",
-    "strict",
     "type",
     "check",
-    "data-type",
-    "functions"
+    "data-type"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "basic-data-handling": "~1.0.15"
+    "@writetome51/is-array-not-array": "~1.0.0"
   }
 }

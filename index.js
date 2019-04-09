@@ -1,12 +1,12 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var isArray_notArray_1 = require("basic-data-handling/isArray_notArray");
+Object.defineProperty(exports, "__esModule", {value: true});
+var ArrNotArr_1 = require("@writetome51/is-array-not-array");
 
-function errorIfNotPrimitiveOrArray(value) {
+
+function errorIfNotPrimitiveOrArray(arg) {
 	var primitives = ['number', 'string', 'boolean'];
-	if (!(primitives.includes(typeof value)) && isArray_notArray_1.notArray(value)) {
+	if (!(primitives.includes(typeof arg)) && ArrNotArr_1.notArray(arg)) {
 		throw new Error('Input must be either a primitive type or an array');
 	}
 }
-
 exports.errorIfNotPrimitiveOrArray = errorIfNotPrimitiveOrArray;
