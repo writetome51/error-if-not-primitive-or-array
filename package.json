@@ -1,6 +1,6 @@
 {
   "name": "error-if-not-primitive-or-array",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Function triggers error if argument is neither a primitive type or array",
   "main": "index.js",
   "scripts": {
